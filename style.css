@@ -112,7 +112,7 @@ header h3 {
 }
 
 footer a {
-    borders:none;
+    border:none;
 }
 
 /* background Images */
@@ -133,4 +133,7 @@ footer a {
     margin-bottom: 2rem;
     font-size: 3rem;
   }
-}
+
+  .right {
+      text-align: right;
+  }
