@@ -18,6 +18,10 @@ Navy:   #192B37
     min-height: 10rem;
 }
 
+.landscape {padding-bottom:65%;}
+.portrait {padding-bottom:125%;}
+.square {padding-bottom:100%;}
+
 /* Universal Styles and Utility classes */
 
 body {
@@ -28,6 +32,13 @@ body {
 .padded-sm {padding:1rem;}
 .padded-lg {padding: 10%;}
 
+.bg-featured {
+    background-color: #f4b525;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
 .bg-dark {
     background-color: #192B37;
     color: white;
@@ -39,14 +50,17 @@ body {
 .tall-90 {min-height: 90vh;}
 .tall-100 {min-height: 100vh;}
 
+/* Temporaray Styles */
 
+h2,h3, h4, h5,h6 {
+margin-bottom: 1rem;
+line-height: 1.1;
+
+}
 /* Typography Styles */
 
 h2 {
     font-size: 2.5rem;
-    line-height: 1.1;
-    margin-bottom: 1rem;
-
 }
 h3 {
     line-height: 1;
