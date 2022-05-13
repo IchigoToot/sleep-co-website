@@ -1,7 +1,33 @@
----
-layout: default
----
+<!DOCTYPE html>
 
+<html>
+    
+  <!---this is the head of our html where we add external resources and metadata-->
+    <head>
+
+<!-- adding view port meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!---- This is out fontawesome icon---->  
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--------------------Gridlex For Our Flexbox--------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+
+  <!---------- Google Fonts Catamaran (200,400,500,800)----------->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@200;400;700&display=swap" rel="stylesheet">
+
+<!-----------------Thia is our custom stylesheet--------------->
+        <link href=/style.css rel="stylesheet">
+    
+    </head>
+
+<!------this is the body, this is where all your page content goes----->
+<body>
+ 
 <!--------------- Header& Banner -----------------> 
 
    <header class="padded grid text-center tall-60">
@@ -88,3 +114,45 @@ layout: default
   </div>
 
 </section>
+
+
+<footer class="padded grid-spaceBetween bg-dark editable">
+  <div class="col-4-bottom">
+      <h2>Let's <br><span class="featured-text"> connect </span>
+      </h2>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ex consequatur omnis temporibus, voluptatem repellat, aut accusamus minus nemo ducimus dolore ipsa amet odio molestias sequi ad blanditiis nobis ipsam.</p>
+  </div>
+  <div class="col-5-bottom">
+      <p> <strong> Call: </strong> <a href="tel#">04555 5555</a></p>
+      <p>  <strong>Email:</strong> <a href="mailto#"> hello@thesleep.co</a></p>
+      <p> <strong>Store: </strong> 55 Main St. Chicago</p>
+      <p> <strong>Instagram: </strong> <a href="https://www.istagram/thesleepco">@thesleepco</a></p>
+
+  </div>
+
+
+  </footer>
+
+
+ </body>
+
+ <!-- GetButton.io widget -->
+<script type="text/javascript">
+  (function () {
+      var options = {
+          whatsapp: "+61404577357", // WhatsApp number
+          email: "reutooot@gmail.com", // Email
+          call_to_action: "Message us", // Call to action
+          button_color: "#FF6550", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "whatsapp,email", // Order of buttons
+          pre_filled_message: "Well get back to you as soon as possible!", // WhatsApp pre-filled message
+      };
+      var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+      var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+      var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+  })();
+</script>
+<!-- /GetButton.io widget -->
+ </html>
