@@ -141,12 +141,16 @@ footer a {
 }
 
 /* Icon grid */
+.fa-solid,
+.fa-brands,
 .fa-cloud {
-    display: block;
-    text-align: center;
-    margin-bottom: 2rem;
-    font-size: 3rem;
-  }
+  display: block;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+
 
   .right {
       text-align: right;
