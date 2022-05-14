@@ -4,7 +4,7 @@
     
   <!---this is the head of our html where we add external resources and metadata-->
     <head>
-
+    
 <!-- adding view port meta -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -24,27 +24,27 @@
         <link href=/style.css rel="stylesheet">
     
     </head>
-
+</html>
 <!------this is the body, this is where all your page content goes----->
-<body>
- 
-<!--------------- Header& Banner -----------------> 
+<body> 
 
-   <header class="padded grid text-center tall-60">
-    <div class="header-nav col-12 grid">
-        <div class="col-4">
-            <a href="/index.html" class="logo">
-            <h2>The Sleep Co</h2>
-            </a>
-        </div>
-            <nav class="col-8 right">
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About</a> 
-            <a href="/products.html">Product</a>
-            <a href="/contact.html">contact</a>
-         </nav>
+    <!--------------- Header& Banner -----------------> 
+
+   <header class="grid tall-60">
+    <div class="header-nav col-12-top grid">
+    <div class="col-5_xs-12-middle sm-padded-b-0">
+        <a href="/index.html" class="logo">
+        <h2>The Sleep Co</h2>
+        </a>
     </div>
-   <div class="col-12-middle editable">
+        <nav class="col-7_xs-12-middle right small-text-center">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a> 
+        <a href="/products.html">Product</a>
+        <a href="/contact.html">contact</a>
+     </nav>
+</div>
+   <div class="col-12-middle text-center">
     <h3 class="font-weight-extra-bold editable"> 
       Addictivly <span class="featured-text"> Soft</span> </h3>
     <h1 class="font-weight-light editable"> You Wont Want To Get out Of Bed</h1>
@@ -180,3 +180,54 @@
 </script>
 <!-- /GetButton.io widget -->
  </html>
+  
+
+    <!-- Footer -->
+<footer class="padded grid-spaceBetween bg-dark editable">
+    <div class="col-4-bottom">
+        <h2>Let's <br><span class="featured-text"> connect </span>
+        </h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ex consequatur omnis temporibus, voluptatem repellat, aut accusamus minus nemo ducimus dolore ipsa amet odio molestias sequi ad blanditiis nobis ipsam.</p>
+    </div>
+    <div class="col-5-bottom">
+        <p> <strong> Call: </strong> <a href="tel#">04555 5555</a></p>
+        <p>  <strong>Email:</strong> <a href="mailto#"> hello@thesleep.co</a></p>
+        <p> <strong>Store: </strong> 55 Main St. Chicago</p>
+        <p> <strong>Instagram: </strong> <a href="https://www.istagram/thesleepco">@thesleepco</a></p>
+
+    </div>
+</footer>
+
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '47453');
+</script>
+<!-- End MailerLite Universal -->
+
+</body>
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+61404577357", // WhatsApp number
+            email: "reutooot@gmail.com", // Email
+            call_to_action: "Message us", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "whatsapp,email", // Order of buttons
+            pre_filled_message: "Well get back to you as soon as possible!", // WhatsApp pre-filled message
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
+</html>
