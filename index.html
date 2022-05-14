@@ -1,5 +1,14 @@
 ---
 layout: default
+featured:
+ - icon: fa-solid fa-cloud
+   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?
+ - icon: fa-brands fa-apple
+   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?
+ - icon: fa-solid fa-pepper-hot
+   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?
+ - icon: fa-solid fa-lemon
+   description: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?
 ---
     <!------------------------ Headear Banner-------------------------->
     <header class="padded grid text-center tall-100 md-tall-80 ">
@@ -39,22 +48,13 @@ layout: default
     <div class="padded-sm col-12 text-center editable"> 
         <h2 class="editable"> <span class="featured-text editable">Features </span> will love</h2>
     </div>
+
+    {% for item in page.featured %}
     <div class="padded-sm col-3">
-        <i class="fa-solid fa-cloud"></i>
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?</p>
+        <i class="{{item.icon}}"></i>
+        <p> {{item.description}}</p>
     </div>
-    <div class="padded-sm col-3">
-        <i class="fa-solid fa-cloud"></i>
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?</p>
-    </div>
-    <div class="padded-sm col-3">
-        <i class="fa-solid fa-cloud"></i>
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?</p>
-    </div>
-    <div class="padded-sm col-3">
-        <i class="fa-solid fa-cloud"></i>
-        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit laborum repudiandae ipsa necessitatibus, quos at mollitia libero nisi neque, eligendi similique accusamus odio autem vitae corrupti architecto eaque non recusandae?</p>
-    </div>
+    {% endfor %}
 
 </section>
 
