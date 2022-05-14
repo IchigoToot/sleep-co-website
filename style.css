@@ -159,8 +159,8 @@ footer a {
   /* reusable responsive media */
   /* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
 
-.show-xs, 
-.show-sm,
+.show-xs , 
+.show-sm ,
 .show-md {
 	display: none;
 }
@@ -227,7 +227,7 @@ footer a {
     body {
         border: 2px solid green;
     }
-	...
+
 }
 
 /* ------- SM Media Query (48em / 768px) --------------- */ 
@@ -238,7 +238,7 @@ footer a {
     body {
         border: 2px solid blue;
     }
-    ...
+   
 }
 
 /* ------- XS Media Query (36em / 576px) --------------- */ 
@@ -249,5 +249,5 @@ footer a {
     body {
         border: 2px solid lightblue;
     }
-    ...
+
 }
