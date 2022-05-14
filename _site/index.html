@@ -20,6 +20,9 @@
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@200;400;500;800&family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@200;400;700&display=swap" rel="stylesheet">
 
+<!-- Animate On Scroll -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 <!-----------------Thia is our custom stylesheet--------------->
         <link href=/style.css rel="stylesheet">
     
@@ -30,8 +33,9 @@
 
         <!------------------------ Headear Banner-------------------------->
     <header class="padded grid text-center tall-100 md-tall-80 ">
+
      <div class="header-nav col-12-top grid">
- <div class="col-5_xs-12-middle sm-padded-b-0">
+ <div class="col-5_xs-11-middle sm-padded-b-0">
 <a href="/index.html" class="logo">
         <h2>The Sleep Co</h2>
         </a>
@@ -56,15 +60,16 @@
     <a href="/products.html">Product</a>
     <a href="/contact.html">contact</a>
 </nav>
-       <div class="col-12-middle editable">
-        <h3 class="editable"> <span class="featured-text editable"> sleep </span class="editable"> like a baby</h3>
-        <h1 class="font-weight-light editable"> The ultimate matress solution</h1>
+
+       <div class="col-12-center">
+        <h3 class="font-weight-extra-bold editable" data-aos="fade-in" data-aos-duration="1000"> <span class="featured-text editable"> sleep </span class="editable"> like a baby</h3>
+        <h1 class="font-weight-light editable" data-aos="fade-up"> The ultimate matress solution</h1>
        </div>
     </header>
 
     <!----------------------- Gallery/About Sections ------------------->
     <section class="grid">
-        <div class="padded col-6-middle">
+        <div class="padded col-6-middle" data-aos="fade-right">
         <h2 class="editable"> build to last a <span class="featured-text editable"> lifetime </span> 
         </h2>
         <p class="editable"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quos consectetur porro quibusdam 
@@ -194,5 +199,11 @@
 <!-- Add JQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!-- /GetButton.io widget -->
+
+<!-- Animate On Scroll -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- Our JavaScript File -->
+<script src="/script.js"></script>
 
 </html>
