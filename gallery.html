@@ -1,6 +1,7 @@
 --- 
 layout: default
 popup-gallery: true
+gallery-background: Dark Background
 gallery:
  - column-size: col-4_sm-12
    aspect-ratio: square
@@ -61,7 +62,9 @@ gallery:
     <a href="/images/sleep-1 (2).jpg" title="funny dog 6"></a>
 </section>
 
-{% endif %}
+{% else %}
+
+<!-- Standart Gallery -->
 
 <section class="padded">
 <h2> Standart Gallery </h2>
@@ -77,6 +80,9 @@ gallery:
   {% endfor %}
 </section>
 
+{% endif %}
+
+{% include testimonial.html %}
 <!-- <section class="padded">
     <div class="gallery grid">
      <div class="col-6">
