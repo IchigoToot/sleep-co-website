@@ -1,5 +1,6 @@
 --- 
 layout: default
+popup-gallery: true
 gallery:
  - column-size: col-4_sm-12
    aspect-ratio: square
@@ -32,6 +33,10 @@ gallery:
       </div>
    </header>
 
+   {% if page.popup-gallery == true %}
+
+   <!-- PopUp Gallery -->
+
    <section class="padded">
      <h2> PopUp Gallery </h2>
    <div class="gallery grid" id="lightgallery">
@@ -55,6 +60,8 @@ gallery:
     <a href="/images/sleep-1 (1).jpg" title="funny dog 5"></a>
     <a href="/images/sleep-1 (2).jpg" title="funny dog 6"></a>
 </section>
+
+{% endif %}
 
 <section class="padded">
 <h2> Standart Gallery </h2>
